@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iSIGHTPartners>
+<success>true</success>
+<message>
+<item>
+<reportId>Intel-1004403</reportId>
+<title>Chinese-Speaking Actor '????' Advertises Several Websites' Databases</title>
+<ThreatScape1>
+<reportPublished>"This is test"</reportPublished>
+<product>Enterprise IT Management and Investment</product>
+</ThreatScape1>
+<reportLink>http://apilb-d01.mysight.dev.isightpartners.int/report/Intel-1004403</reportLink>
+<webLink>http://httplb-d01.mysight.dev.isightpartners.int/report/full/Intel-1004403</webLink>
+</item>
+</message>
+</iSIGHTPartners>

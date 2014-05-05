@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="iSIGHTPartners">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="success"/>
+        <xs:element name="message">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="reportId"/>
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element name="ThreatScape">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="product"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:int" name="reportPublished"/>
+                    <xs:element type="xs:anyURI" name="reportLink"/>
+                    <xs:element type="xs:anyURI" name="webLink"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
